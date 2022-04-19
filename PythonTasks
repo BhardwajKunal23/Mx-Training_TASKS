@@ -1,0 +1,6 @@
+h=eval(input("Enter Diamond's height: "))
+for i in range(h):
+  if(i<h/2):
+    print(" "*(int((h/2)-i)),"#"*((i*2)+1))
+  else:
+    print(" "*(int(i-(h/2)+1)),"#"*((h-i)*2-1))
